@@ -1,0 +1,87 @@
+body {
+    -webkit-font-smoothing: antialiased !important;
+    -moz-font-smoothing: grayscale !important;
+}
+.navbar {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 600;
+} 
+h2 {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+}
+.admin-info {
+    float: left;
+}
+.login-time {
+    float: right;
+}
+.mtop-50 {
+    margin-top: 50px;
+}
+._entity {
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    background: #2196F3;
+    width: 200px;
+    text-align: center;
+    color: #FFF;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    line-height: 2.5;
+}
+._teachers {
+    background-color: #F4511E;
+}
+td.msg {
+    font-size: 12px !important;
+}
+.navbar-toggler {
+    border: none;
+    outline: none !important;
+}
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    }
+}
+li.nav-item a.btn.btn-primary {
+    font-size: 13px;
+    color: #FFF;
+    border-radius: 2px;
+}
+li.nav-item a.btn.btn-primary:hover {
+    color: #FFF;
+}
+table a {
+    text-decoration: none !important;
+}
+a.btn-pill {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #FFF;
+    padding: 3px 6px;
+    margin-left: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+a.btn-pill.pill-red {
+    background: tomato;
+}
+a.btn-pill.pill-green {
+    background: #4CAF50;
+}
+a._export_btn {
+    font-size: 14px;
+    text-decoration: none;
+    background: #388E3C;
+    color: #FFF;
+    text-decoration: none;
+    padding: 6px 8px;
+    border-radius: 2px;
+}

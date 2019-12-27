@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>theplusminus.co - Admin Page</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="assets/logo.svg" width="165px">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobileNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="mobileNavbar">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" target="_blank" href="http://theplusminus.co/">Landing Page</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="http://theplusminus.co:2082">Control Pannel</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/">System Status</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link btn btn-primary" href="/logout">Logout</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    <div class="container">
+        <div class="row my-5">
+            <div class="col-lg-12">
+                <h2>Administrative Control</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3">
+                    <b>Admin:</b> Simon Thomas
+            </div>
+            <div class="col">
+                    <div class="login-time">
+                        <b>Last Login Time:</b> 23/12/2019 18:00:00 
+                    </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row text-left mtop-50">
+            <div class="col-lg-12">
+                <div class="_entity">
+                    Registered Students
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="table-responsive">
+                    <table class="table table-sm table-bordered">
+                        <thead>
+                          <tr>
+                            <th scope="col">Unique ID</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Phone</th>
+                            <th scope="col">Mail</th>
+                            <th scope="col">Board</th>
+                            <th scope="col">Class</th>
+                            <th scope="col">Message</th>
+                            <th scope="col">Date of Register</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>Subhra</td>
+                            <td>+91 70446 35952</td>
+                            <td>das.subhra.k@gmail.com</td>
+                            <td>CBSE</td>
+                            <td>VIII</td>
+                            <td><a href="#">View Message</a></td>
+                            <td>2019-12-22</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3">
+                <a class="_export_btn" href="#">Export to Excel</a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row text-left mtop-50">
+            <div class="col-lg-12">
+                <div class="_entity _teachers">
+                    Registered Teachers
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="table-responsive">
+                    <table class="table table-sm table-bordered">
+                        <thead>
+                          <tr>
+                            <th scope="col">Unique ID</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Phone</th>
+                            <th scope="col">Mail</th>
+                            <th scope="col">Board</th>
+                            <th scope="col">Class</th>
+                            <th scope="col">Download CV</th>
+                            <th scope="col">Date of Register</th>
+                            <th scope="col">Active Status</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>Subhra</td>
+                            <td>+91 70446 35952</td>
+                            <td>das.subhra.k@gmail.com</td>
+                            <td>CBSE</td>
+                            <td>8</td>
+                            <td><a href="#">Download</a></td>
+                            <td>2019-12-22</td>
+                            <td>Active <a class="btn-pill pill-red" href="/">Deactivate</a></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>Soumo Bose</td>
+                            <td>+91 70446 35952</td>
+                            <td>boseinsideyou@gmail.com</td>
+                            <td>CBSE</td>
+                            <td>10</td>
+                            <td><a href="#">Download</a></td>
+                            <td>2019-12-12</td>
+                            <td>Inactive <a class="btn-pill pill-green" href="/">Activate</a></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3">
+                <a class="_export_btn" href="#">Export to Excel</a>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
